@@ -16,6 +16,7 @@ import javax.swing.GroupLayout;
  *  - Add a mode selection (1p/2p)
  *  - Assign a "coin flip" on game ending, assign who moves first based on game winning state
  *  - Rewrite codebase with better practices
+ *  - fix initial run bug
  */
 
 public class Game extends JPanel
@@ -30,7 +31,7 @@ public class Game extends JPanel
 
     public static void main(String[] args)
     {
-        new Game();
+        //new Game();
         JFrame TicTacToeV2 = new JFrame();
         try
         {
@@ -65,8 +66,8 @@ public class Game extends JPanel
 
         System.out.println("Determining coin flip.");
         System.out.println("Checking coin flip: ");
-
-        if(!coinFlip())
+        boolean flipValue = coinFlip();
+        if(!flipValue)
         {
             JOptionPane.showMessageDialog(null, "Opponent moves first.");
             setOpponentMovement();

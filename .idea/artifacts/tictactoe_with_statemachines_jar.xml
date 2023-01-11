@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tictactoe-with-statemachines:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tictactoe_with_statemachines_jar</output-path>
+    <root id="archive" name="tictactoe-with-statemachines.jar">
+      <element id="module-output" name="tictactoe-with-statemachines" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/material-ui-swing-1.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/material-ui-swing-1.1.2-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
