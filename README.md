@@ -1,4 +1,7 @@
 # tictactoe-with-statemachines
+
+![image](https://user-images.githubusercontent.com/48269287/211882978-097386ee-0dde-47be-8878-0743887ed9ba.png)
+
 This project was developed for CSCI 312 - Theory of Computation as an option in place of a literary report. The main idea of the project is to apply the concept of state machines to a game or program.
 
 # The Approach
