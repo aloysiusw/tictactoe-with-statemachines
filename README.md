@@ -1,4 +1,4 @@
-# tictactoe-with-statemachines
+# TicTacToe with State Machines
 
 ![image](https://user-images.githubusercontent.com/48269287/211882978-097386ee-0dde-47be-8878-0743887ed9ba.png)
 
